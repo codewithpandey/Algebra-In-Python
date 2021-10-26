@@ -29,11 +29,14 @@ def add(expression):
         else:
             pass
     # print (op1Coef, "+", op2Coef)
-    
+    if op1Coef == "":
+        op1Coef = "1"
+    if op2Coef == "":
+        op2Coef = "1"
     # selecting only the variables
     var1 = ''.join(filter(str.isalpha, operand1))
     var2 = ''.join(filter(str.isalpha, operand2))
-
+    
     if(var1 == var2):
         result = str(int(op1Coef)+int(op2Coef))+var1
     else:
@@ -46,5 +49,6 @@ def add(expression):
     print(result)
 
 
+add("a+a")
 add("2a+3b")
 add("2a+3a")
