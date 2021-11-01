@@ -3,8 +3,8 @@ import re
 
 def add(expression):
     result = expression
-    # let's just take bothe operands first
-    expRegex = re.compile(r'([0-9]?[a-zA-Z])\+([0-9]?[a-zA-Z])') # selects both coeefficients and variables.
+    # let's just take both operands first
+    expRegex = re.compile(r'([0-9]?[a-zA-Z])\+([0-9]?[a-zA-Z])') # selects both co-efficients and variables.
     operands = expRegex.search(expression)
     operand1 = operands.group(1)
     operand2 = operands.group(2)
@@ -40,6 +40,10 @@ def add(expression):
     
 
     print(result)
+
+def mul(expression):
+    pass
+
 
 
 add("a+a")
