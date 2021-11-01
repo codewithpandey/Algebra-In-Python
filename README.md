@@ -13,6 +13,7 @@ Again, if there is any exponent for the given variable they should be added and 
 for division we will leave as it is i.e. a/b
 
 Starting with addition:
+
     There are four major types of problems in algebraic additions.
 
 1. If there are two same variables with no co-efficients such as a + a, then we have to assume there co-efficients as 1 and while adding them there co-efficients add upto 2, and there is left only one variable and the final answer is 2a.
@@ -24,7 +25,8 @@ Starting with addition:
 4. If there are two same variables but with their powers are different thent he result will be same as it is with 2 different variables.
 
 Moving on to multiplication:
- In multiplication the cases are different from those in addition. Think of it as the concatination operator but the co-efficients will be arithmetically multiplied and should be concatinated in front of the concatinated variables. Of course the case is different with same variables.
+
+    In multiplication the cases are different from those in addition. Think of it as the concatination operator but the co-efficients will be arithmetically multiplied and should be concatinated in front of the concatinated variables. Of course the case is different with same variables.
 
 1. If there are two same variables with no co-efficients, of course we assume the co-efficients as 1, but on multiplying the variable will have an exponent. E.g. a * a will have a result a^2.
 
