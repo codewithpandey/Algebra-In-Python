@@ -33,3 +33,13 @@ Moving on to multiplication:
 2. If there are two same variables with different co-efficients and with different powers, the powers must be added and the co-efficients must be multiplied arithmetically.
 
 3. If there are two different variables with same or different powers or, same or different co-efficients, the co-efficients will be multiplied but the varibales itself with there exponents shall be concatinated. E.g. 2a^2 * 3b^3 will result into 6a^2b^3. 
+
+Let's work on Division:
+
+   For division we have many ways to approach. For instance, we can multiply the denominator with the numerator by chnaging it's power from positive to negative or vice versa is also possible. Let's see what are the problems we have to solve.
+
+1. If both the numerator and the denominator (without power) are same, then we can just eqaute the expression to be absolute unity.
+
+2. If both the numerator and the denominator (with power) are same, we can just negate there power between each other and, print the rest. We can also perform an algebraic multiplication just by swapping the sign of the power of any one.
+
+3. If the numberator and denominator is different (with or without powers) then no worries, we can print it as it is. Or we can also print numerator multiplied by the inverse power of the denominator.
